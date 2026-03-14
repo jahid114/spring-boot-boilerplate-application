@@ -37,6 +37,8 @@ dependencies {
     implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
     implementation("org.hibernate.validator:hibernate-validator:8.0.1.Final")
     implementation("org.glassfish:jakarta.el:4.0.2")
+    implementation("io.minio:minio:8.5.17")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2")
 
     "developmentOnly"("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
