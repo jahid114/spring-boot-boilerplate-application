@@ -24,7 +24,7 @@ server:
 logging:
   level:
     root: INFO
-    com.yourpackage: DEBUG
+    com.user_auth_db_config_boilerplate: DEBUG
     org.springframework.security: DEBUG
   file:
     path: logs/application.log
